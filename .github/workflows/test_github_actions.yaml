@@ -42,4 +42,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ghrc.io/${{ github.repository }}:latest
+        tags: ghcr.io/888leonidas888/github-actions:latest
